@@ -1,0 +1,31 @@
+Bitcoin and Blockchain Quiz 1
+
+Total Questions: 51
+
+Total Time: 60 minutes
+
+
+Covers:
+
+Demos:
+https://anders.com/blockchain/
+
+https://anders.com/blockchain/blockchain.html
+
+http://cobweb.cs.uga.edu/~dme/csci6300/Encryption/Crypto.html
+
+
+First two chapter of Mastering Bitcoin: Programming the Open Blockchain 2nd Edition
+
+
+https://bitzuma.com/posts/six-things-bitcoin-users-should-know-about-private-keys/
+
+https://bitcoin.stackexchange.com/questions/43546/does-the-private-key-of-bitcoin-change-everytime-the-address-changes
+
+https://www.webopedia.com/TERM/H/hashing.html
+
+https://keepingstock.net/explaining-blockchain-how-proof-of-work-enables-trustless-consensus-2abed27f0845
+
+https://coinsutra.com/bitcoin-double-spending/
+
+https://www.coindesk.com/information/how-do-bitcoin-transactions-work/
