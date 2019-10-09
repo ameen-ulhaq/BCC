@@ -60,10 +60,12 @@ document.write('<br> Question 5 <br>');
 
 var dubArr = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
 var noDubArr = [];
-
-
 for (let i = 0; i < dubArr.length; i++) {
-     
+     var temp = dubArr[i];
+     if (dubArr[i] != dubArr) {
+          noDubArr.push(dubArr[i]);
+          
+     }
 }
-document.write(filter(dubArr) + '<br>');
+document.write(dubArr + '<br>');
 document.write(noDubArr);
