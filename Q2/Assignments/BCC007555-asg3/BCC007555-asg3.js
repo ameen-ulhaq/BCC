@@ -3,7 +3,7 @@ document.write('Question 1');
 var education = ['SSC', 'HSC', 'BCS', 'BS', 'BCOM', 'MS', 'M. Phil', 'PhD'];
 document.write("<h1> Qualifications: </h1><br>");
 for (let i = 0; i < education.length; i++) {
-     document.write(i+1 + " "+ education[i] +" <br> ");
+  document.write(i + 1 + " " + education[i] + " <br> ");
 }
 
 
@@ -13,7 +13,7 @@ var students = ['Micheal', 'John', 'Tony'];
 var scores = [320, 230, 480];
 var totalMarks = 500;
 for (let i = 0; i < students.length; i++) {
-    document.write('Score of ' + students[i] + ' is ' + scores[i] + '. Percentage: ' + (scores[i]/totalMarks*100) + "% <br>");
+  document.write('Score of ' + students[i] + ' is ' + scores[i] + '. Percentage: ' + (scores[i] / totalMarks * 100) + "% <br>");
 }
 
 
@@ -41,7 +41,7 @@ document.write(' <br>E:  Delete last color == ' + colors);
 // F
 var whichIndexIns = prompt("which index you wants to add a color?");
 var whichColor = prompt("color name?");
-colors.splice(whichIndexIns, 0 , whichColor);
+colors.splice(whichIndexIns, 0, whichColor);
 document.write(' <br>G:  Add to index  == ' + colors);
 // G
 var whichIndex = prompt("which index you wants to delete color?");
@@ -65,19 +65,16 @@ document.write(noDubArr);
 
 // Question 6
 var aCities = ["Karachi", "Lahore", "Islamabad", "Faisalabad"];
-var o = ["th","st","nd","rd"];
+var o = ["th", "st", "nd", "rd"];
 for (var i = 0; i < 1; i++) {
   for (var j = 1; j < o.length; j++) {
     if (o[j] == 'st') {
       console.log("1" + o[j] + " choice is " + aCities[0]);
-    }
-    else if (o[j] == 'nd') {
+    } else if (o[j] == 'nd') {
       console.log("2" + o[j] + " choice is " + aCities[1]);
-    }
-    else if (o[j] == 'rd') {
+    } else if (o[j] == 'rd') {
       console.log("3" + o[j] + " choice is " + aCities[2]);
-    }
-    else if (o[j] == 'th') {
+    } else if (o[j] == 'th') {
       console.log("4" + o[j] + " choice is " + aCities[3]);
     }
   }
@@ -86,12 +83,12 @@ for (var i = 0; i < 1; i++) {
 // Question 7
 document.write('<br> Question 7 <br>');
 
-var a = [10,20,4, 4, 4, 4,40,60,70];
-var b = [1,2,3,4,5,6,7,8,9,10];
+var a = [10, 20, 4, 4, 4, 4, 40, 60, 70];
+var b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 var c = [...new Set(b.concat(a))];
 
 document.write(a + '<br>');
-document.write(b+ '<br>');
+document.write(b + '<br>');
 document.write(c);
 
 // Question 8
@@ -101,7 +98,7 @@ for (let i = 1; i < 16; i++) {
   console.log(i);
 }
 // b
-for (let i = 10; i > 0 ; i--) {
+for (let i = 10; i > 0; i--) {
   console.log(i);
 }
 // c
@@ -128,20 +125,20 @@ var lar = [222, 24, 53, 78, 91, 12];
 var largest = 0;
 for (var i = 0; i <= largest; i++) {
   if (lar[i] > largest) {
-     largest = lar[i];
+    largest = lar[i];
   }
 }
 console.log(lar);
 console.log(largest);
 
 // Question 10
-var sorts = [20,53,78,4,91,12];
+var sorts = [20, 53, 78, 4, 91, 12];
 var largest = 0;
-var n  = [];
+var n = [];
 for (var i = 0; i <= largest; i++) {
   if (sorts[i] > largest) {
-     largest = sorts[i];
-     n.push(largest);
+    largest = sorts[i];
+    n.push(largest);
   }
 }
 console.log(sorts);
